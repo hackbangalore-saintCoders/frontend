@@ -7,6 +7,7 @@ import Register from './components/Register';
 import FreelancerDashboard from './components/FreelancerDashboard';
 import UploadResume from "./components/UploadResume";
 import Findjobs from './components/Findjobs';
+import Chat from './components/Chat';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import"./App.css";
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/uploadResume" element={<UploadResume />} />
         <Route path="/findjobs" element={<Findjobs />} />
+        <Route path="/chat" element={<Chat />} />
       </Routes>
       <Footer />
     </Router>

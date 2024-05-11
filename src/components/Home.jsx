@@ -5,6 +5,7 @@ import bgover from "./xyz.webp"
 import Sliders from "./Sliders";
 import Footer from "./Footer"
 import Linkedin from "./Linkedin";
+import FreelancerDashboard from "./FreelancerDashboard"
 const Home = () =>{
     return(
         <div className="container-fluid bg-black text-white">
@@ -36,6 +37,8 @@ const Home = () =>{
               <div className="col-md-12">
                 <Sliders/>
                 <Linkedin/>
+                <FreelancerDashboard/>
+
               </div>
             </div>
         </div>
