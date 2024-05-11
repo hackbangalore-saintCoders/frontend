@@ -1,0 +1,64 @@
+button{
+    background-color: rgb(41, 105, 199);
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+
+.filterBudget{
+    gap: 10px;
+    .input{
+        
+        input{
+            
+            border: 1px solid rgb(75, 71, 71);
+            outline: none;
+            border-radius: 3px;
+            width: 110px;
+            padding: 5px;
+            background-color: rgb(198, 208, 211);
+           
+        }
+        input::placeholder {
+            color: black;
+        }
+    }
+}
+
+.sortby{
+    font-size: 18px;
+    gap: 5px;
+    .newest{
+        font-weight: bold;
+    }
+}
+
+.select{
+    background-color: darkgray;
+    border: none;
+    outline: none;
+    padding: 0px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.stars{
+    color: goldenrod;
+}
+.card-image-job {
+    height: 200px;  
+    object-fit: cover; 
+    width: 100%; 
+  }
+  .card-rest {
+    border-radius: 15px; /* Rounded corners for the card */
+    overflow: hidden; /* Ensures that the content inside the card does not overflow */
+    box-shadow: 0 4px 8px rgba(187, 185, 185, 0.744); /* Shadow for the card */
+    transition: transform 0.3s ease-in-out; /* Smooth transition effect for hover */
+  }

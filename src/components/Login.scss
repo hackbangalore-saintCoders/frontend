@@ -1,0 +1,140 @@
+
+
+
+
+
+/* Styles for the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../images/bglogin.jpg) no-repeat;
+         background-size: cover;
+         background-position: center;
+  }
+  
+  /* Styles for the login form */
+  .login-container .form-box.login {
+    width: 350px;
+    padding: 20px;
+    background-color: transparent;
+     border:  2px solid rgba(255,255,255,.1);
+     backdrop-filter: blur(30px);
+     box-shadow: 0 0 10px rgba(0,0,0,.2);
+     border-radius: 10px;
+     color: #fff;
+     
+  }
+  
+  .login-container .form-box.login h1 {
+    font-size: 37px;
+    margin-bottom: 20px;
+  }
+  
+  .login-container .form-box.login .input-box {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin: 30px 0;
+  }
+  
+  .login-container .form-box.login .input-box input {
+    width: 100%;
+   height: 100%;
+   background: transparent;
+   border: none;
+   outline: none;
+   border: 2px solid rgba(255, 255, 255, 0.1);
+   border-radius: 40px;
+   font-size: 16px;
+   color: #fff;
+   padding: 20px 45px 20px 20px;
+  }
+  .login-container .form-box.login .input-box input:hover{
+    color: #fff;
+  } 
+
+  
+  
+  .login-container .form-box.login .input-box .bi {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #ccc;
+  }
+  
+  .login-container .form-box.login .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-container .form-box.login .remember-forgot label {
+    font-size: 14px;
+  }
+  
+  .login-container .form-box.login .remember-forgot a {
+    font-size: 14px;
+    color: #f5f8fa;
+    text-decoration: none;
+  }
+  .login-container .form-box.login .remember-forgot a:hover{
+    font-size: 14px;
+    color: #f5f8fa;
+    text-decoration: underline;
+  }
+  
+  .login-container .form-box.login .register-link p {
+    font-size: 14px;
+  }
+  
+  .login-container .form-box.login .register-link a {
+    font-size: 14px;
+    color: #edf0f4;
+    text-decoration: none;
+  }
+
+  .login-container .form-box.login .register-link a:hover {
+    
+    text-decoration: underline;
+  }
+  .remember-forgot label input {
+         accent-color: #fff;
+         margin-right: 4px;
+     }
+
+ form .remember-forgot {
+display: flex;
+justify-content: space-between;
+font-size: 14.5px;
+margin: -15px 0 15px;
+ }
+
+
+  .remember-forgot  a {
+         text-decoration: none;
+         color: #fff;
+     }
+
+     .remember-forgot a:hover {
+         text-decoration: underline;
+     }
+  
+
+
+  .loginbtn{
+    width: 100%;
+     height: 45px;
+     background: #fff;
+     border: none;
+     outline: none;
+     border-radius: 40px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     cursor: pointer;
+     font-size: 16px;
+     color: #333;
+     font-weight: 700;
+  }

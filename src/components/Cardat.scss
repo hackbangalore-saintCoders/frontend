@@ -1,0 +1,44 @@
+.CatCard {
+    width: 253px;
+    height: 344px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block; /* Display cards inline */
+    gap: 20px;
+    margin-left: 5px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .desc {
+        position: absolute;
+        top: 80px;
+        left: 15px;
+        font-weight: 300;
+        transition: top 0.3s; /* Add transition for smooth animation */
+    }
+
+    .title {
+        position: absolute;
+        left: 5px;
+        top: 40px;
+        font-size: 24px;
+        font-weight: 500;
+        transition: left 0.3s, font-size 0.3s; /* Add transition for smooth animation */
+    }
+
+    &:hover .desc {
+        top: 140px; /* Change top position on hover */
+    }
+
+    &:hover .title {
+        left: 20px; /* Change left position on hover */
+        font-size: 30px; /* Increase font size on hover */
+    }
+    
+}

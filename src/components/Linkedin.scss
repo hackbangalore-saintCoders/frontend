@@ -1,0 +1,26 @@
+.left {
+    padding: 20px;
+}
+
+.right {
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+
+.job-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+
+   
+}
+
+.imageoffreelancer{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.jobtitle{
+    color: rgb(38, 87, 201);
+    font-weight: bold;
+}

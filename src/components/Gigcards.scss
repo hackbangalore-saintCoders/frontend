@@ -1,0 +1,61 @@
+button{
+    background-color: rgb(41, 105, 199);
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+
+.filterBudget{
+    gap: 10px;
+    .input{
+        
+        input{
+            
+            border: 1px solid rgb(75, 71, 71);
+            outline: none;
+            border-radius: 3px;
+            width: 110px;
+            padding: 5px;
+            background-color: rgb(198, 208, 211);
+           
+        }
+        input::placeholder {
+            color: black;
+        }
+    }
+}
+
+.sortby{
+    font-size: 18px;
+    gap: 5px;
+    .newest{
+        font-weight: bold;
+    }
+}
+.menu{
+    padding: 6px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0.5 px solid lightblue;
+    position: absolute;
+    top: calc(100% + 550px);
+    right: 250px; 
+    color: black;   
+    span{
+        cursor: pointer;
+    }
+
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
