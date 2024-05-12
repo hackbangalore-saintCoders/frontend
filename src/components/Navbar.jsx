@@ -193,14 +193,14 @@ const Navbar = () => {
       <div className="container">
         <div className="logo">
           <Link to="/" className="link">
-            <span className="skill">Skill</span>
-            <span className="bridge">Bridge</span>
+            <span className="skill">Dev</span>
+            <span className="bridge">Flex</span>
           </Link>
         </div>
         <div className="links">
           {!currentUser ? (
             <>
-            <Link className="link">Active Jobs</Link>
+            <Link to="/userform" className="link">Create Dev</Link>
           <Link to="/findjobs" className="link">Find Jobs</Link>
             <Link to="/" className="link">
                 Home
